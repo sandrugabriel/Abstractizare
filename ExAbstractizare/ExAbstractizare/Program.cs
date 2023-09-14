@@ -12,11 +12,15 @@ internal class Program
            new Eticheta("text",50,40,new Punct(100,90),1003)
        };
 
-        foreach (IFigura f in list)
-        {
-            f.Afisare();
-            Console.WriteLine("\n");
-        }
+        /* foreach (IFigura f in list)
+         {
+             f.Afisare();
+             Console.WriteLine("\n");
+         }*/
+
+        Desen desen = new Desen(1, list);
+
+        desen.Afisare();
 
     }
 }
