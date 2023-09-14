@@ -117,26 +117,52 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <metadata name="bunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>83</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bunifuGradientPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAF6SURBVChTDcrrL5VxAMDx849RNNfJZYRGMRWKajoy98tB
+        DC3MJXJJInehRJMxC5vLGrO25o03dTyX85xznvNczmH79vu8/jjCVkyi5gIkTOikjvjI6tfI61R53CpT
+        0iBRXummzvkXR/iaRdSSQcKMTtq4iENeHvR6ePJaoeSVREWdm/ryfyL+sIheNbi9GCBtyk/2mIiDInYr
+        vGiXqWi6pL5GxBs7NjEbJolfDO7M69yb9PFwVKPorYqzS6GyTaLB5cZxcz9IzLZF4rpB+rKIs34effRS
+        POzB2adQ9UbC1XIp4lGQ2F2LpE2T9G8B7n8WcVrEDx5K36lU9ci4OkSMOAkRe2CTtGOSsSHiV538BR9P
+        P2mUvlepHpBp7JJE/B0i7pdN8r5FxrZBzncRV0Sc03g54aF6RKGxT8TI8yviz4KkHNtk7pnkbgUoWPfz
+        bMlL2YxGzbhK05CM49bFNfF/QqSc2tw9FPGnQeGmzvNVH2WLGrVTKs1jCv8BGZkqFTQEwJUAAAAASUVO
+        RK5CYII=
+</value>
   </data>
-  <data name="menu (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pctrasn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACDSURBVChTDcrBAAQxDADAmkfgBAoQgQpUIAARqEAE9uYx
+        v1kR3/djkxwuRfMYVvxENsnhUjSPYcUW2SSHS9E8hhUpskkOl6J5DCuOyCY5XIrmMay4IpvkcCmax7Ci
+        RDbJ4VI0j2FFi2ySw6VoHsOKJ7JJDpeieQwrRmSTHC5F85j5vj+WgFdsvH7l4gAAAABJRU5ErkJggg==
+</value>
   </data>
-  <data name="gradient (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gradient (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pctLinie.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACDSURBVChTDcrBAAQxDADAmkfgBAoQgQpUIAARqEAE9uYx
+        v1kR3/djkxwuRfMYVvxENsnhUjSPYcUW2SSHS9E8hhUpskkOl6J5DCuOyCY5XIrmMay4IpvkcCmax7Ci
+        RDbJ4VI0j2FFi2ySw6VoHsOKJ7JJDpeieQwrRmSTHC5F85j5vj+WgFdsvH7l4gAAAABJRU5ErkJggg==
+</value>
   </data>
-  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gradient (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gradient (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gradient (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gradient (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="bunifuElipse2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>162, 17</value>
+  </metadata>
+  <metadata name="bunifuElipse3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>307, 17</value>
+  </metadata>
+  <metadata name="bunifuElipse4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>452, 17</value>
+  </metadata>
+  <metadata name="bunifuElipse5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>597, 17</value>
+  </metadata>
 </root>
