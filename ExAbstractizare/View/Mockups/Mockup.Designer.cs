@@ -32,13 +32,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Mockup));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipse4 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pctDesen = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.bunifuElipse4 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pctLinie = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -48,15 +50,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.pctrasn = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -64,18 +63,19 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuElipse5 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pctDesen)).BeginInit();
+            this.pctLinie.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.bunifuGradientPanel1.SuspendLayout();
-            this.pctLinie.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pctrasn.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -88,73 +88,42 @@
             this.bunifuElipse2.ElipseRadius = 35;
             this.bunifuElipse2.TargetControl = this.button1;
             // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::View.Properties.Resources.gradient__3_;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
+            this.button1.Location = new System.Drawing.Point(43, 685);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(243, 52);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Salveaza Desen";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // bunifuElipse3
             // 
             this.bunifuElipse3.ElipseRadius = 25;
             this.bunifuElipse3.TargetControl = this.pctDesen;
             // 
-            // bunifuElipse4
-            // 
-            this.bunifuElipse4.ElipseRadius = 22;
-            this.bunifuElipse4.TargetControl = this.pctLinie;
-            // 
             // pctDesen
             // 
-            this.pctDesen.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.pctDesen.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.pctDesen.Location = new System.Drawing.Point(399, 81);
             this.pctDesen.Name = "pctDesen";
             this.pctDesen.Size = new System.Drawing.Size(857, 644);
             this.pctDesen.TabIndex = 1;
             this.pctDesen.TabStop = false;
             // 
-            // pictureBox4
+            // bunifuElipse4
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox4.Image = global::View.Properties.Resources.menu__1_;
-            this.pictureBox4.Location = new System.Drawing.Point(1199, 12);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(25, 35);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::View.Properties.Resources.close;
-            this.pictureBox2.Location = new System.Drawing.Point(1247, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(28, 35);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // bunifuGradientPanel1
-            // 
-            this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
-            this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel1.Controls.Add(this.pctrasn);
-            this.bunifuGradientPanel1.Controls.Add(this.pctLinie);
-            this.bunifuGradientPanel1.Controls.Add(this.comboBox2);
-            this.bunifuGradientPanel1.Controls.Add(this.comboBox1);
-            this.bunifuGradientPanel1.Controls.Add(this.button1);
-            this.bunifuGradientPanel1.Controls.Add(this.pictureBox1);
-            this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.MediumSlateBlue;
-            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.LightSkyBlue;
-            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.Cyan;
-            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.MediumPurple;
-            this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
-            this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(358, 759);
-            this.bunifuGradientPanel1.TabIndex = 0;
+            this.bunifuElipse4.ElipseRadius = 22;
+            this.bunifuElipse4.TargetControl = this.pctLinie;
             // 
             // pctLinie
             // 
+            this.pctLinie.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.pctLinie.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pctLinie.BackgroundImage")));
             this.pctLinie.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pctLinie.Controls.Add(this.textBox4);
@@ -170,9 +139,9 @@
             this.pctLinie.Controls.Add(this.label2);
             this.pctLinie.Controls.Add(this.label1);
             this.pctLinie.Controls.Add(this.pictureBox3);
-            this.pctLinie.GradientBottomLeft = System.Drawing.Color.Magenta;
-            this.pctLinie.GradientBottomRight = System.Drawing.Color.White;
-            this.pctLinie.GradientTopLeft = System.Drawing.Color.Cyan;
+            this.pctLinie.GradientBottomLeft = System.Drawing.Color.Indigo;
+            this.pctLinie.GradientBottomRight = System.Drawing.Color.Black;
+            this.pctLinie.GradientTopLeft = System.Drawing.Color.DarkSlateGray;
             this.pctLinie.GradientTopRight = System.Drawing.Color.White;
             this.pctLinie.Location = new System.Drawing.Point(30, 112);
             this.pctLinie.Name = "pctLinie";
@@ -180,8 +149,49 @@
             this.pctLinie.Size = new System.Drawing.Size(299, 239);
             this.pctLinie.TabIndex = 3;
             // 
+            // textBox4
+            // 
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Location = new System.Drawing.Point(206, 147);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(50, 25);
+            this.textBox4.TabIndex = 4;
+            this.textBox4.Text = "50";
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Location = new System.Drawing.Point(206, 103);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(50, 25);
+            this.textBox3.TabIndex = 4;
+            this.textBox3.Text = "50";
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Location = new System.Drawing.Point(67, 149);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(50, 25);
+            this.textBox2.TabIndex = 4;
+            this.textBox2.Text = "50";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Location = new System.Drawing.Point(67, 103);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(50, 25);
+            this.textBox1.TabIndex = 4;
+            this.textBox1.Text = "50";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.button2.BackgroundImage = global::View.Properties.Resources.gradient__2_;
             this.button2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button2.FlatAppearance.BorderSize = 0;
@@ -193,7 +203,7 @@
             this.button2.Size = new System.Drawing.Size(299, 45);
             this.button2.TabIndex = 3;
             this.button2.Text = "Deseneaza";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // label7
             // 
@@ -281,106 +291,51 @@
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
-            // comboBox1
+            // pictureBox4
             // 
-            this.comboBox1.DropDownHeight = 110;
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.IntegralHeight = false;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Line",
-            "Cerc",
-            "Dreptunghi"});
-            this.comboBox1.Location = new System.Drawing.Point(36, 71);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(286, 35);
-            this.comboBox1.TabIndex = 2;
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox4.Image = global::View.Properties.Resources.menu__1_;
+            this.pictureBox4.Location = new System.Drawing.Point(1199, 12);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(25, 35);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
             // 
-            // button1
+            // pictureBox2
             // 
-            this.button1.BackgroundImage = global::View.Properties.Resources.gradient__3_;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(43, 685);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(243, 52);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Salveaza Desen";
-            this.button1.UseVisualStyleBackColor = true;
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::View.Properties.Resources.close;
+            this.pictureBox2.Location = new System.Drawing.Point(1247, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(28, 35);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // pictureBox1
+            // bunifuGradientPanel1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::View.Properties.Resources.menu;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(37, 35);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(67, 103);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(50, 25);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "50";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(67, 149);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(50, 25);
-            this.textBox2.TabIndex = 4;
-            this.textBox2.Text = "50";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox3
-            // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Location = new System.Drawing.Point(206, 103);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(50, 25);
-            this.textBox3.TabIndex = 4;
-            this.textBox3.Text = "50";
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox4
-            // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Location = new System.Drawing.Point(206, 147);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(50, 25);
-            this.textBox4.TabIndex = 4;
-            this.textBox4.Text = "50";
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.DropDownHeight = 110;
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.IntegralHeight = false;
-            this.comboBox2.Items.AddRange(new object[] {
-            "asd",
-            "dsf",
-            "sdgf",
-            "fg"});
-            this.comboBox2.Location = new System.Drawing.Point(30, 379);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(286, 35);
-            this.comboBox2.TabIndex = 2;
+            this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
+            this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel1.Controls.Add(this.pctrasn);
+            this.bunifuGradientPanel1.Controls.Add(this.pctLinie);
+            this.bunifuGradientPanel1.Controls.Add(this.comboBox2);
+            this.bunifuGradientPanel1.Controls.Add(this.comboBox1);
+            this.bunifuGradientPanel1.Controls.Add(this.button1);
+            this.bunifuGradientPanel1.Controls.Add(this.pictureBox1);
+            this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.LightSlateGray;
+            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.Lavender;
+            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.Silver;
+            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.SystemColors.ButtonShadow;
+            this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
+            this.bunifuGradientPanel1.Quality = 10;
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(358, 759);
+            this.bunifuGradientPanel1.TabIndex = 0;
             // 
             // pctrasn
             // 
@@ -404,6 +359,34 @@
             this.pctrasn.Quality = 10;
             this.pctrasn.Size = new System.Drawing.Size(299, 239);
             this.pctrasn.TabIndex = 3;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Transparent;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.Control;
+            this.button5.Location = new System.Drawing.Point(142, 138);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(157, 47);
+            this.button5.TabIndex = 5;
+            this.button5.Text = "Stergere";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Transparent;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.Control;
+            this.button4.Location = new System.Drawing.Point(0, 138);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(146, 47);
+            this.button4.TabIndex = 5;
+            this.button4.Text = "Dublicare";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // textBox6
             // 
@@ -482,44 +465,63 @@
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
             // 
+            // comboBox2
+            // 
+            this.comboBox2.DropDownHeight = 110;
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.IntegralHeight = false;
+            this.comboBox2.Items.AddRange(new object[] {
+            "asd",
+            "dsf",
+            "sdgf",
+            "fg"});
+            this.comboBox2.Location = new System.Drawing.Point(30, 379);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(286, 35);
+            this.comboBox2.TabIndex = 2;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownHeight = 110;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.IntegralHeight = false;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Line",
+            "Cerc",
+            "Dreptunghi"});
+            this.comboBox1.Location = new System.Drawing.Point(36, 71);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(286, 35);
+            this.comboBox1.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::View.Properties.Resources.menu;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(37, 35);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // bunifuElipse5
             // 
             this.bunifuElipse5.ElipseRadius = 25;
             this.bunifuElipse5.TargetControl = this.pctrasn;
             // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.Control;
-            this.button4.Location = new System.Drawing.Point(0, 138);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(146, 47);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Dublicare";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.Control;
-            this.button5.Location = new System.Drawing.Point(142, 138);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(157, 47);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Stergere";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
             // Mockup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(1293, 759);
             this.Controls.Add(this.pctDesen);
             this.Controls.Add(this.pictureBox4);
@@ -532,16 +534,16 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mockup";
             ((System.ComponentModel.ISupportInitialize)(this.pctDesen)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.bunifuGradientPanel1.ResumeLayout(false);
             this.pctLinie.ResumeLayout(false);
             this.pctLinie.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.bunifuGradientPanel1.ResumeLayout(false);
             this.pctrasn.ResumeLayout(false);
             this.pctrasn.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
