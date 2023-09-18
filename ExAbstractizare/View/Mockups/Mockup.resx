@@ -127,14 +127,12 @@
   <data name="bunifuGradientPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAF6SURBVChTDcrrL5VxAMDx849RNNfJZYRGMRWKajoy98tB
-        DC3MJXJJInehRJMxC5vLGrO25o03dTyX85xznvNczmH79vu8/jjCVkyi5gIkTOikjvjI6tfI61R53CpT
-        0iBRXummzvkXR/iaRdSSQcKMTtq4iENeHvR6ePJaoeSVREWdm/ryfyL+sIheNbi9GCBtyk/2mIiDInYr
-        vGiXqWi6pL5GxBs7NjEbJolfDO7M69yb9PFwVKPorYqzS6GyTaLB5cZxcz9IzLZF4rpB+rKIs34effRS
-        POzB2adQ9UbC1XIp4lGQ2F2LpE2T9G8B7n8WcVrEDx5K36lU9ci4OkSMOAkRe2CTtGOSsSHiV538BR9P
-        P2mUvlepHpBp7JJE/B0i7pdN8r5FxrZBzncRV0Sc03g54aF6RKGxT8TI8yviz4KkHNtk7pnkbgUoWPfz
-        bMlL2YxGzbhK05CM49bFNfF/QqSc2tw9FPGnQeGmzvNVH2WLGrVTKs1jCv8BGZkqFTQEwJUAAAAASUVO
-        RK5CYII=
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAETSURBVChTLc0JboJQFAXQv/+kTdPWeUBEBQQRZFREEYSC
+        VtMhbbqb2/eBBZwcNpjp6E81dEUVbUFGa7TAy3CG576Ep56Ix46Ah9YYTFQsCLKJ8dzAUKpRb6KiIyho
+        E3od1IgtVh7mugNpaYOjibyu0IimQYO6NDF9E2JpbqGuA8gcaQ5mhKaERJoEjmhilh/DdA8wnAgcaQ1S
+        CC10t0ISIeaHGdxdCidIsPFqtLYjrAjp5g5Lo0YsikuEhwK7KEcQnuFtU7jBCTahDSHT3sOwQrAku+OU
+        3nBMruBo36AtTT5NHDmEWFF+Iy++kOUfSM81ik9XHOILIkLhvkbsdv/D++0Xl+sPOHorPit0pilp0DEu
+        8Q86YDWsnSXVIQAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="pctrasn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -148,9 +146,13 @@
   <data name="pctLinie.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACDSURBVChTDcrBAAQxDADAmkfgBAoQgQpUIAARqEAE9uYx
-        v1kR3/djkxwuRfMYVvxENsnhUjSPYcUW2SSHS9E8hhUpskkOl6J5DCuOyCY5XIrmMay4IpvkcCmax7Ci
-        RDbJ4VI0j2FFi2ySw6VoHsOKJ7JJDpeieQwrRmSTHC5F85j5vj+WgFdsvH7l4gAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFkSURBVChTBcFtSxNAAMDx+x69CHrhUZCcoNhpZl5q6zAf
+        Om01r2VzZ4650+m85nTWmtZQsdEDo0KCiIjeRK/6eP9+PzEm17mrqjzQDbxps2ZPqbqP7PsL3oSfdOMf
+        vqR/CC0LTKoys3qHR+aAVXtMxZ1T9z1eh2+cxV/00l/EkFzmtipidYVFk3hqDym5t9R8l8PwmU78zof0
+        GzEgl7ip8kzrNebNJsu2TnAttvwJjfCeo/iVd+kHol/OckNluaNXuG9KZG2Vgmuw4du8CGe04idO0wXi
+        mswwpBYY14+5Zwos2jJ5V6Pkm+yEY5rxnE7qIfrkBAPKMqodU8Yzb4vkXIXgE5vhJXuxw1HqIq7IUa6r
+        SYb1DBNmiRmb56F7zjO/RTnU2Y0tXqUTxGU5yFU1xqCe5paZI2OzOLfCE19iPWyzHfc5SG3EJdlPnxpG
+        6XFGTIYpu8Ccy5HzqxRDmRhr7KUm/wEmMtKVIscjhgAAAABJRU5ErkJggg==
 </value>
   </data>
   <metadata name="bunifuElipse2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
